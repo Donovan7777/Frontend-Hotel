@@ -1,0 +1,44 @@
+# --- Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# --- Build / Production
+build/
+dist/
+.cache/
+
+# --- Tests / Coverage
+coverage/
+
+# --- Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# --- Lockfiles (prof ne veut PAS package-lock.json dans la remise)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- IDE / Editor configs (à exclure pour la remise)
+.vscode/
+.idea/
+*.iml
+*.code-workspace
+
+# --- OS / Misc
+.DS_Store
+Thumbs.db
+
+# --- Lint cache
+.eslintcache
